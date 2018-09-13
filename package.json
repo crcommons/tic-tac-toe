@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
      "dev": "nodemon server.js",
-     "start": "nodemon --ignore app/ server.js"
+     "start": "nodemon server.js"
   },
   "author": "Carolyn Commons",
   "license": "ISC",
