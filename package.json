@@ -1,0 +1,19 @@
+{
+  "name": "tic-tac-toe",
+  "version": "1.0.0",
+  "description": "Code Challenge for Wave - Building Tic-Tac-Toe",
+  "main": "server.js",
+  "scripts": {
+     "dev": "nodemon server.js"
+  },
+  "author": "Carolyn Commons",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongodb": "^2.2.16"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
