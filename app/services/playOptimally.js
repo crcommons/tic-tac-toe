@@ -9,8 +9,10 @@ module.exports = function(masterBoard) {
         let winner = checkWinner(board);
         if (winner === 'o') {
             score[currentIndex] += 1
+            return
         } else if (winner === 'x') {
             score[currentIndex] -= 1
+            return
         } else {
             board.forEach((marker, index) => {
                 if (board[index] === ' ') {
